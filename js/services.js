@@ -24,12 +24,12 @@ var gProj = [
     {
         id: 'guessMe',
         name: 'Guess ME',
-        title: 'Guess who and add questions!',
+        title: 'Guess who and add questions! can you beat me?',
         desc: `'Akinator's all-consuming passion is trying to guess characters by asking questions.
         To play with him, think of a character, real or fictional, keep it well in mind and then click on the
         menu "play > characters".
         Akinator will then proceed to ask you a series of questions that you'll have to answer as truthfully
-        as possible. After this series of questions, he will tell you what you'`,
+        as possible. After this series of questions, he will tell you what you.'`,
         url: 'projs/GuessMe-Ex-startHere-1.1/index.html',
         publishedAt: 'nan',
         labels: ['matrixes', 'keyboard events'],

@@ -31,6 +31,7 @@ section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+    color: #f6bf01;
 }
 section h3.section-subheading {
     font-size: 16px;
@@ -39,6 +40,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgb(207, 194, 6) !important;
 }
 @media (min-width: 768px) {
     section {
