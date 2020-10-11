@@ -7,8 +7,9 @@ function init() {
 
 
 function renderPortfolio() {
+    var projects=getProj()
     var strHtml = ''
-    gProj.forEach(function (proj) {
+    projects.forEach(function (proj) {
         strHtml += `<div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" onclick="renderModal()" href="#portfolioModal${proj.modal}">
           <div class="portfolio-hover">
@@ -30,8 +31,9 @@ function renderPortfolio() {
 }
 
 function renderModal() {
+    var projects=getProj()
     var strHtml = ''
-    gProj.forEach(function (proj) {
+    projects.forEach(function (proj) {
         console.log('proj', proj)
         strHtml += `<div class="portfolio-modal modal fade" id="portfolioModal${proj.modal}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -79,15 +81,14 @@ function renderModal() {
 
 
 function onShowProj(projNum) {
-    gProj.forEach(function (proj) {
+    var projects=getProj()
+    projects.forEach(function (proj) {
         if (projNum === proj.modal) {
             window.open(`${proj.url}`)
 
             console.log(projNum)
         }
-
     })
-    console.log(gProj)
 }
 
 function onContact() {

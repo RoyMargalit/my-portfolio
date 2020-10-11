@@ -37,6 +37,11 @@ var gProj = [
     },
 ]
 
+
+
+function getProj(){
+    return gProj
+}
 function getProjectById(id) {
     return gProjects.find(function (project) {
         return project.id === id;
