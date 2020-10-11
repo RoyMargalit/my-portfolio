@@ -1,0 +1,123 @@
+*{
+    box-sizing: content-box;
+}
+html{
+    background-image: linear-gradient(45deg, rgb(197, 152, 152), blue);
+    background-size: cover;
+}
+body{
+    text-align: center;
+}
+table, th, td {
+    border: 2px solid black;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    bottom: 200px;
+    border-width: 15px;
+    border-style: double;
+    border-color: #000;
+    border-radius: 10px;
+        
+}
+.level{
+    background-color:goldenrod;
+    border: 2px black solid;
+    border-radius: 5%;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    height: 100px;
+    font-size: 20px;
+    
+}
+a{
+    margin: auto;
+}
+ul{
+    text-align: center;
+    font-size: 1.4em;
+}
+a:active{
+    color: lightcoral;
+    background-color: lightcyan;
+}
+a:visited {
+    color: green;
+}
+a:nth-child(2){
+    font-size: 30px;
+}
+.names:hover {
+    background-color: lightskyblue;
+    color: ivory;
+    /* display: inline; */
+    margin: 0%;
+    /* text-align: center; */
+    /* margin: auto; */
+    /* margin-left: 30%;  */
+}
+input:focus{
+    box-sizing: content-box;
+    background-color: lightcoral;
+}
+
+.buttons{
+    margin: auto;
+    margin-bottom: 20%;
+    font-size: 20px;
+    text-align: center;
+}
+.level h3{
+    margin: 0%;
+    color: whitesmoke;
+}
+
+
+.timer{
+    background-color: goldenrod;
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+h1{
+    color: maroon;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 4px 2px 2px rgba(150, 150, 150, 1);
+    margin: 0%;
+}
+.modal{
+    display:none;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    padding: 5px;
+    width: 300px;
+    background-color: goldenrod;
+}
+.cell{
+    width: 50px;
+    height: 70px;
+    border: 2px solid rgb(60, 23, 70);
+    border-radius: 20%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: oldlace;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+.cell-touched{
+    color: maroon;
+    background-color: mediumslateblue;
+    width: 50px;
+    height: 70px;
+    border: 2px solid rgb(60, 23, 70);
+    border-radius: 20%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}

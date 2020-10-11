@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Touch the Num</title>
+</head>
+
+
+<body onload="init()">
+    <h1 onload="getcurrentime()">touch the nums!</h1>
+    <div class="timer"> 0 mins 0 secs</div>
+    <div class="modal">
+        <button onclick="closeModal()">x</button>
+        <h3>victory!</h3>
+    </div>
+    <ul>
+
+        <a href="https://apps.apple.com/us/app/touch-the-numbers/id319885576">Download</a>
+        <a href="https://www.google.com/">Google</a>
+    </ul>
+    <div class="level">
+        <h3>choose level</h3>
+        <div class="buttons">
+            <button onclick="chooseLevel(4)">Easy</button>
+            <button onclick="chooseLevel(5)">Medium</button>
+            <button onclick="chooseLevel(6)">Hard</button>
+        </div>
+    </div>
+    <table class="board"></table>
+
+    <div class="names">
+        first name<input class="name1"></input>
+        Last name<input class="name2"></input>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
