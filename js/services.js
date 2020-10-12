@@ -5,7 +5,7 @@ var gProj = [
         title: 'Minesweeper is a single-player puzzle video game.',
         desc: 'Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden "mines" or bombs without detonating any of them, with help from clues about the number of neighboring mines in each field. The game originates from the 1960s, and has been written for many computing platforms in use today. It has many variations and offshoots.',
         url: 'projs/mines\ css/index.html',
-        publishedAt: 'nan',
+        publishedAt: 'September 2020',
         labels: ['matrixes', 'keyboard events'],
         modal: 1,
 
@@ -16,7 +16,7 @@ var gProj = [
         title: 'This is a game you need to count until 16 to win',
         desc: 'he 1960s, and has been written for many computing platforms in use today. It has many variations and offshoots jofh;aioh fdkhs;goj dkghaskfna/kln ewdghasgh hsg;ij lasdgh jes hdfkj a/lja/rg tojrgo jrgp rogj op.',
         url: 'projs/touch\ the\ num\ css/index.html',
-        publishedAt: 'nan',
+        publishedAt: 'September 2020',
         labels: ['matrixes', 'keyboard events'],
         modal: 2
 
@@ -31,7 +31,7 @@ var gProj = [
         Akinator will then proceed to ask you a series of questions that you'll have to answer as truthfully
         as possible. After this series of questions, he will tell you what you.'`,
         url: 'projs/GuessMe-Ex-startHere-1.1/index.html',
-        publishedAt: 'nan',
+        publishedAt: 'September 2020',
         labels: ['matrixes', 'keyboard events'],
         modal: 3,
     },

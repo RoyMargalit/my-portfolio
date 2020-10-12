@@ -5,7 +5,6 @@ function init() {
     renderPortfolio()
 }
 
-
 function renderPortfolio() {
     var projects=getProj()
     var strHtml = ''
@@ -52,7 +51,7 @@ function renderModal() {
                     <img class="img-fluid d-block mx-auto" src="img/renderportfolio/${proj.id}.jpg" alt="">
                     <p>${proj.desc}</p>
                     <ul class="list-inline">
-                      <li>Date: January 2017</li>
+                      <li>Date: ${proj.publishedAt} </li>
                       <li>Client: Threads</li>
                       <li>Category: Illustration</li>
                     </ul>
@@ -76,10 +75,6 @@ function renderModal() {
     elContainer.innerHTML += strHtml
 }
 
-
-
-
-
 function onShowProj(projNum) {
     var projects=getProj()
     projects.forEach(function (proj) {
@@ -96,8 +91,5 @@ function onContact() {
     console.log(email)
     var subject = document.getElementById('exampleInputSubject').value
     console.log(subject)
-    window.open(`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=me@example.com&su=${subject}&body=BODY&bcc=someone.${email}@example.com&tf=1`)
-
+    window.open(`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=roy4499@gmail.com&su=${subject}&body&bcc&tf=1`)
 }
-
-
